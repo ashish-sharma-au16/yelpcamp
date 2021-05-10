@@ -1,0 +1,35 @@
+body{
+    /* background-image: linear-gradient(to right top, #b1d2f3, #c8d0d6, #c8d1d8, #c7d3d9, #c6d4da); */
+    background-image : url('https://wallpapercave.com/wp/wp3079291.jpg');
+    background-size: cover;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size: 22px;
+    letter-spacing: -0.4px;
+    word-spacing: 2px;
+    color: #f8f8f8;
+    font-weight: 700;
+    text-decoration: none solid rgb(17, 17, 17);
+    font-style: italic;
+    font-variant: small-caps;
+    text-transform: none;
+}
+
+input[type="text"]{
+
+    background-color : #d1d1d1; 
+  
+  }
+h1{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 28px;
+    letter-spacing: -0.4px;
+    word-spacing: 2px;
+    color: #e6dddd;
+    font-weight: normal;
+    text-decoration: underline solid rgb(68, 68, 68);
+    font-style: italic;
+    font-variant: small-caps;
+    text-transform: none;
+    text-shadow: 2px 2px 2px #CE5937;
+}
+

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    {{!-- <link rel="stylesheet" href="camp.css"> --}}
+    <style>
+        body{
+    /* background-image: linear-gradient(to right top, #b1d2f3, #c8d0d6, #c8d1d8, #c7d3d9, #c6d4da); */
+    background-image : url('https://wallpapercave.com/wp/wp3079291.jpg');
+    background-size: cover;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size: 22px;
+    letter-spacing: -0.4px;
+    word-spacing: 2px;
+    color: #f8f8f8;
+    font-weight: 700;
+    text-decoration: none solid rgb(17, 17, 17);
+    font-style: italic;
+    font-variant: small-caps;
+    text-transform: none;
+}
+
+input[type="text"]{
+
+    background-color : #d1d1d1; 
+  
+  }
+h1{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 28px;
+    letter-spacing: -0.4px;
+    word-spacing: 2px;
+    color: #e6dddd;
+    font-weight: normal;
+    text-decoration: underline solid rgb(68, 68, 68);
+    font-style: italic;
+    font-variant: small-caps;
+    text-transform: none;
+    text-shadow: 2px 2px 2px #CE5937;
+}
+
+
+    </style>
+    <title>New</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center display-5">Add New CampGround</h1>
+    <div class="d-flex justify-content-center align-items-center">
+        <form action="/campgroundsaved" method="POST" enctype="multipart/form-data">
+            <div class="mb-3">
+                <label for="emailId" class="form-label">Name</label>
+                <input type="name" placeholder="John Doe" name="name" class="form-control" id="name">
+            </div>
+            <div class="mb-3">
+                <label for="price" class="form-label">Price</label>
+                <input type="name" name="price" placeholder="20" class="form-control" id="price">
+            </div>
+            <div class="mb-3">
+                <label for="password" class="form-label">location</label>
+                <input type="name" name="location" placeholder="Manali India" class="form-control" id="location">
+            </div>
+
+            <div class="mb-3">
+                <label for="password" class="form-label">Add Image</label>
+                <input type="file" name="image" placeholder="image.jpg" class="form-control" id="image">
+            </div>
+            <div class="mb-3"></div>
+                <label for="exampleFormControlTextarea1">Description</label>
+                <textarea class="form-control" placeholder="Add something about your Trip" name="description" id="description" rows="3"></textarea>
+                <br>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+            
+            
+            
+        </form>
+    </div>
+</div>
+</body>
+</html>
